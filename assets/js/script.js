@@ -11,12 +11,13 @@ var mod = (numUno % numDos);
 
 //aquí creamos nuestro div contenedor
 document.write("<div class='container'>");
-document.write("<h1>Ejercicio Operaciones</h1>");
+document.write("<h1>1.- Ejercicio Operaciones</h1>");
 document.write("<h3>Suma: " + suma + "</h3>");
 document.write("<h3>Resta: " + resta + "</h3>");
 document.write("<h3>Multiplicación: " + mul + "</h3>");
 document.write("<h3>División: " + div + "</h3>");
 document.write("<h3>Módulo: " + mod + "</h3>");
+document.write("//////////////////////////////////");
 document.write("</div>");
 
 //Ejercicio de Transformacion de temperatura
@@ -27,16 +28,23 @@ var k = (gradoskel + 273.15);
 var f = ((gradoskel * 9 / 5) + 32);
 //aquí creamos nuestro div contenedor
 document.write("<div class='container'>");
-document.write("<h1>Ejercicio Temperatura</h1>");
+document.write("<h1>2.- Ejercicio Temperatura</h1>");
 document.write("<h3>Kelvin: " + k + "</h3>");
 document.write("<h3>Fahrenheit: " + f + "</h3>");
+document.write("//////////////////////////////////");
 document.write("</div>");
 
 //Ejercico Cantidad de indicamos
 var numDia = parseInt(prompt("Ingrese los dias a transformar en año/semana/dias: "));
 
-document.write("<div class='container'>");
+var año = numDia / 12;
+var semana = numDia / 7;
 
+document.write("<div class='container'>");
+document.write("<h1>3.- Transformación dias</h1>");
+document.write("<h3>los dias en año: " + año + "</h3>");
+document.write("<h3>los dias en semana: " + semana + "</h3>");
+document.write("//////////////////////////////////");
 document.write("</div>");
 
 
@@ -49,7 +57,10 @@ var num5 = parseInt(prompt("Ingrese el 5° Numero: "));
 
 var sm = (num1 + num2 + num3 + num4 + num5);
 var pr = (sm/5)
+
 document.write("<div class='container'>");
-document.write("<h1>Suma total:" + sm + "</h1>");
-document.write("<h1>Promedio total:" + pr + "</h1>");
+document.write("<h1>4.- Ejercicio </h1>");
+document.write("<h3>Suma total:" + sm + "</h3>");
+document.write("<h3>Promedio total:" + pr + "</h3>");
+document.write("//////////////////////////////////");
 document.write("</div>");
